@@ -2,9 +2,6 @@
 
 import React                        from 'react';
 import { connect }                  from 'react-redux';
-// Also, set up the drag and drop context
-import { DragDropContext }          from 'react-dnd';
-import HTML5Backend                 from 'react-dnd-html5-backend';
 import SplitPane                    from 'react-split-pane';
 import { withRouter }               from 'react-router';
 
@@ -12,6 +9,7 @@ import { Tooltip, ActivateTooltip } from '../tooltip';
 
 import LeftPane                     from './LeftPane';
 import RightPane                    from './RightPane';
+import withDragDropContext from "./withDragDropContext";
 
 type PropsType = {
   leftPaneActiveTab: string,
@@ -58,4 +56,6 @@ const mapStateToProps = (state, ownProps) => ({
 
 const ConnectedContent = connect(mapStateToProps)(Content);
 
-export default withRouter(DragDropContext(HTML5Backend)(ConnectedContent));
+const DragDropContextComponent = withDragDropContext(ConnectedContent);
+
+export default withRouter(DragDropContextComponent);
