@@ -43,7 +43,7 @@
                         </goals>
                         <phase>generate-resources</phase>
                         <configuration>
-                            <nodeVersion>v8.9.0</nodeVersion>
+                            <nodeVersion>v8.10.0</nodeVersion>
                             <yarnVersion>v1.3.2</yarnVersion>
                         </configuration>
                     </execution>
@@ -55,8 +55,8 @@
                         <phase>generate-resources</phase>
 
                         <configuration>
-                            <!-- If you need reproducible dependencies, which is usually the case 
-                                with the continuous integration systems, you should pass frozen-lockfile 
+                            <!-- If you need reproducible dependencies, which is usually the case
+                                with the continuous integration systems, you should pass frozen-lockfile
                                 flag. -->
                             <arguments>--frozen-lockfile</arguments>
                         </configuration>
