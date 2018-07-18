@@ -35,7 +35,7 @@
     "i18n-react": "^0.6.4",
     "isomorphic-fetch": "^2.2.1",
     "js-yaml-loader": "^0.1.0",
-    "less": "^3.7.0",
+    "less": "^3.7.1",
     "moment": "^2.22.2",
     "moment-duration-format": "^2.2.2",
     "prop-types": "^15.6.2",
@@ -65,7 +65,7 @@
     "autoprefixer": "^8.6.4",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
-    "babel-eslint": "^8.2.5",
+    "babel-eslint": "^8.2.6",
     "babel-loader": "^7.1.5",
     "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.7.0",
@@ -118,7 +118,7 @@
     "react-highlight-words": "^0.11.0",
     "react-hot-loader": "^4.3.3",
     "react-markdown": "^3.3.4",
-    "react-number-format": "^3.4.2",
+    "react-number-format": "^3.4.4",
     "redux-logger": "^3.0.6",
     "redux-mock-store": "^1.5.3",
     "resolve-url-loader": "^2.2.1",
@@ -127,11 +127,11 @@
     "style-loader": "^0.21.0",
     "timekeeper": "^2.1.2",
     "url-loader": "^1.0.1",
-    "webpack": "^4.16.0",
+    "webpack": "^4.16.1",
     "webpack-cli": "^3.0.8",
     "webpack-config-utils": "^2.3.0",
     "webpack-dev-middleware": "^3.1.3",
-    "webpack-hot-middleware": "^2.22.2"
+    "webpack-hot-middleware": "^2.22.3"
   },
   "nyc": {
     "extension": [
