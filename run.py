@@ -35,4 +35,8 @@ def dataset(id):
 
 @app.route('/api/datasets/<dataset>/concepts')
 def concepts(dataset):
+<<<<<<< OURS
+  return ia.
+=======
   return ia.get_movie_locations
+>>>>>>> THEIRS
