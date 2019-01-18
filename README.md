@@ -33,3 +33,4 @@ This platform was created by [InGef – Institut für angewandte Gesundheitsfors
 [<img alt="InGef – Institut für angewandte Gesundheitsforschung Berlin GmbH" src="images/ingef_logo.svg" height=50 align="top">](http://www.ingef.de/)
 &emsp;
 [<img alt="bakdata GmbH" src="images/bakdata_logo.svg" height=37 align="top">](http://www.bakdata.com)
+ 
