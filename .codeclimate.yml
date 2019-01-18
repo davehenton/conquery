@@ -1,0 +1,7 @@
+plugins:
+  checkstyle:
+    enabled: true
+  duplication:
+    enabled: false
+  structure:
+    enabled: false
